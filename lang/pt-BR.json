@@ -1,0 +1,10 @@
+{
+  "TOKENFOLLOWCAM.Settings.Enabled.Name": "Seguir o token controlado",
+  "TOKENFOLLOWCAM.Settings.Enabled.Hint": "Enquanto um token que você controla se move (WASD, setas ou arrasto), a câmera o segue quadro a quadro, mantendo-o centralizado na tela.",
+  "TOKENFOLLOWCAM.Settings.Smoothing.Name": "Suavidade da câmera (ms)",
+  "TOKENFOLLOWCAM.Settings.Smoothing.Hint": "Quão macia é a perseguição da câmera. Maior = deslize mais suave/preguiçoso; menor = mais seca; 0 = pulo instantâneo ao destino. 150 combina bem com a velocidade padrão de movimento dos tokens.",
+  "TOKENFOLLOWCAM.Keybind.Toggle": "Alternar câmera seguindo o token",
+  "TOKENFOLLOWCAM.Keybind.ToggleHint": "Liga/desliga rapidamente a câmera que segue o token controlado.",
+  "TOKENFOLLOWCAM.Notifications.On": "Câmera seguindo: LIGADA",
+  "TOKENFOLLOWCAM.Notifications.Off": "Câmera seguindo: DESLIGADA"
+}

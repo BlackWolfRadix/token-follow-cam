@@ -1,0 +1,34 @@
+{
+  "id": "token-follow-cam",
+  "title": "Token Follow Cam",
+  "description": "A câmera segue o token controlado enquanto ele se move (WASD, setas ou arrasto), mantendo-o centralizado na tela — acompanhando a animação do movimento quadro a quadro, em vez de deixar a câmera para trás.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Token Follow Cam"
+    }
+  ],
+  "esmodules": ["scripts/main.js"],
+  "styles": [],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packs": [],
+  "relationships": {},
+  "url": "https://github.com/BlackWolfRadix/token-follow-cam",
+  "manifest": "https://github.com/BlackWolfRadix/token-follow-cam/releases/latest/download/module.json",
+  "download": "https://github.com/BlackWolfRadix/token-follow-cam/releases/latest/download/module.zip"
+}

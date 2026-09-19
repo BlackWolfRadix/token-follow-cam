@@ -1,0 +1,10 @@
+{
+  "TOKENFOLLOWCAM.Settings.Enabled.Name": "Follow the controlled token",
+  "TOKENFOLLOWCAM.Settings.Enabled.Hint": "While a token you control moves (WASD, arrows or drag), the camera follows it frame by frame, keeping it centered on screen.",
+  "TOKENFOLLOWCAM.Settings.Smoothing.Name": "Camera smoothing (ms)",
+  "TOKENFOLLOWCAM.Settings.Smoothing.Hint": "How softly the camera chases the token. Higher = smoother/lazier glide; lower = snappier; 0 = instant jump to the destination. 150 matches the default token movement speed well.",
+  "TOKENFOLLOWCAM.Keybind.Toggle": "Toggle camera follow",
+  "TOKENFOLLOWCAM.Keybind.ToggleHint": "Quickly enables/disables the camera following the controlled token.",
+  "TOKENFOLLOWCAM.Notifications.On": "Camera follow: ON",
+  "TOKENFOLLOWCAM.Notifications.Off": "Camera follow: OFF"
+}
