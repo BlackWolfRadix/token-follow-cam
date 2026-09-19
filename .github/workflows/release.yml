@@ -1,0 +1,32 @@
+# Publica uma release instalável do Foundry a cada tag "v*":
+# monta o module.zip (arquivos na raiz do zip, como o Foundry espera) e anexa
+# o zip + o module.json à release — os links `manifest`/`download` do
+# module.json apontam para `releases/latest/download/`, então instalar pela
+# URL do manifest sempre pega a versão mais recente.
+#
+# Uso: atualize a "version" no module.json, commit, e então:
+#   git tag v1.x.y && git push origin v1.x.y
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Montar module.zip
+        run: zip -r module.zip module.json README.md scripts lang
+
+      - name: Criar a release com os anexos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" module.zip module.json \
+            --title "$GITHUB_REF_NAME" --generate-notes

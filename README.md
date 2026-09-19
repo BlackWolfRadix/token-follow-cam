@@ -5,6 +5,14 @@ ele se move — WASD, setas ou arrasto — mantendo-o **centralizado na tela**,
 acompanhando a animação do movimento quadro a quadro (nada de a câmera ficar
 para trás).
 
+## Instalação
+
+No Foundry: **Add-on Modules → Install Module → Manifest URL**:
+
+```
+https://github.com/BlackWolfRadix/token-follow-cam/releases/latest/download/module.json
+```
+
 ## Instalação (desenvolvimento)
 
 ```
