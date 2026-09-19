@@ -2,9 +2,9 @@
   "id": "token-follow-cam",
   "title": "Token Follow Cam",
   "description": "A câmera segue o token controlado enquanto ele se move (WASD, setas ou arrasto), mantendo-o centralizado na tela — acompanhando a animação do movimento quadro a quadro, em vez de deixar a câmera para trás.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "compatibility": {
-    "minimum": "13",
+    "minimum": "12",
     "verified": "13"
   },
   "authors": [

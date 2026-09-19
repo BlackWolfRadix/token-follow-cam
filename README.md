@@ -1,6 +1,6 @@
 # Token Follow Cam
 
-Módulo para **Foundry VTT v13**: a câmera **segue o token controlado** enquanto
+Módulo para **Foundry VTT v12/v13**: a câmera **segue o token controlado** enquanto
 ele se move — WASD, setas ou arrasto — mantendo-o **centralizado na tela**,
 acompanhando a animação do movimento quadro a quadro (nada de a câmera ficar
 para trás).

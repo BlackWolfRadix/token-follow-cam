@@ -6,7 +6,10 @@ movimento (WASD/setas/arrasto), centralizado, quadro a quadro.
 ## Regras do projeto
 
 Mesmas convenções dos módulos irmãos do autor (core-fnaf/fnaf-cameras/
-fnaf-minigames): **Foundry v13 exclusivamente**, sem bundler/deps, ESM nativo,
+fnaf-minigames), com UMA exceção: este módulo usa só APIs estáveis desde o
+v12 (settings/keybindings/hooks/canvas.pan/ticker — nada de AppV2 ou
+scene-controls), então a compatibilidade é **minimum 12, verified 13**. Não
+introduzir APIs v13-only sem subir o minimum. Sem bundler/deps, ESM nativo,
 JSDoc pt-BR com identificadores/i18n em inglês. i18n no namespace próprio
 `TOKENFOLLOWCAM.*` (sem risco de colisão com os irmãos `FNAF.*`).
 
